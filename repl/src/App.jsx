@@ -12,7 +12,7 @@ import React, { useCallback, useLayoutEffect, useRef, useState } from 'react';
 import './App.css';
 import logo from './logo.svg';
 import * as tunes from './tunes.mjs';
-import * as WebDirt from 'WebDirt';
+import * as WebDirt from '../../packages/webdirt/webdirt.mjs';
 import { loadWebDirt, resetLoadedSamples } from '@strudel.cycles/webdirt';
 
 evalScope(

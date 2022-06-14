@@ -1,6 +1,6 @@
 import * as strudel from '@strudel.cycles/core';
 const { Pattern } = strudel;
-import * as WebDirt from 'WebDirt';
+import * as WebDirt from './js-src/webdirt.js';
 import { getLoadedSamples, loadBuffer, getLoadedBuffer } from './sampler.mjs';
 
 let webDirt;
